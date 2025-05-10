@@ -1,30 +1,17 @@
+# Core dependencies
 requests
-numpy
-pandas
+load_dotenv
 
 # Models and tokenizers
-langchain==0.3.14
-langchain-openai==0.3.1
-langchain-community
-tiktoken==0.8.0
-transformers==4.48.1
+openai
+tiktoken
 
-# Vector dbs
-pgvector==0.3.6
-psycopg==3.2.4
-
-# Embeddings
-InstructorEmbedding==1.0.1
-sentence-transformers==3.3.1
-
-# Email output
-sendgrid
-
-# Text parsing
-beautifulsoup4
-html2text
-lxml
-
-# Frontend/backend rameworks
+# UI
 streamlit
-Flask
+
+# Optional dependencies
+pip-tools 
+notebook 
+ipykernel 
+jupyterlab 
+ipywidgets
